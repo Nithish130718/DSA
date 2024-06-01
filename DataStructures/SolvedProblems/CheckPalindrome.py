@@ -8,7 +8,7 @@ Implementation of stack and queue data structures as classes (as asked) to be in
 """
 
 # You can find the wrapper approach implementation of the stack here: https://github.com/Nithish130718/DSA/blob/main/DataStructures/Stacks/Wrapper_Approach.py
-# And the implementation of the queue here: https://github.com/Nithish130718/DSA/new/main/DataStructures/Queues/Wrapper_Approach.py
+# And the implementation of the queue here: https://github.com/Nithish130718/DSA/blob/main/DataStructures/Queues/Wrapper_Approach.py
     
 
 if __name__ == '__main__':
