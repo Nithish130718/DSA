@@ -1,3 +1,5 @@
+Certainly! Here's the updated README file with the additional subrepositories included:
+
 ## Python Codes for Data Structures and Algorithms
 
 ### Ex-1:
@@ -33,3 +35,23 @@
 
 ### DynamicArrays.py:
 - Implementation of dynamic arrays.
+
+### DataStructures:
+- **Queues**:
+  - CircularQueue.py
+  - LinkedQueue.py
+  - PriorityQueue.py
+  - Wrapper_Approach.py
+- **Solved Problems**:
+  - CheckPalindrome.py
+  - DualStackArray.py
+  - Infix_to_Postfix.py
+- **Stacks**:
+  - LinkedStack.py
+  - Wrapper_Approach.py
+- **Trees**:
+  - AbstractBinaryTree.py
+  - AbstractTree.py
+  - BinarySearchTree.py
+  - ExpressionTree.py
+  - LinkedBinaryTree.py
