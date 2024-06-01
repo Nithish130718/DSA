@@ -1,20 +1,17 @@
 """
 This module provides a class 'LinkedStack' that provides an implementation to create and perform operations on a LinkedStack.
-This exercise comes under the course UIT2201 (Programming and Data Structures).
-
-This is a source code purely based on my logic. It may have some bugs as well. 
-
-Kindly feel free to comment down your suggestions and/or opinions.
-
-Created on: 23st June 2023
-
-Revised on: 30th June 2023
-
-Original Author: Nithish Kumar S [IT-B, 3122 22 5002 084]
 """
 
-from NodeCreation import Node
+class Node:
+    """
+    This class consists of an implementation to create a node. A node typically consists of two parts - an 'item' and a 'next' pointer.
+    """
+    __slots__ = ['item','next']
 
+    # Constructor that would be invoked to create a node.
+    def __init__(self,item=None,next=None):
+        self.item = item
+        self.next = next
 
 class LinkedStack:
     """
