@@ -1,16 +1,10 @@
 '''
-This module provides a class 'Stack' that enables to maintain 2 stacks in a single array (at the two ends of the array).
-This exercise comes under the course UIT2201 (Programming and Data Structures).
 
-This is a source code purely based on my logic. It may have some bugs as well. 
+Question : 
+    Implement a Stack class that maintains two stacks within a single array, with each stack growing from opposite ends of the array. 
+    The implementation should include methods to check if the stack is full or empty, and a method to push elements into either of the two stacks. 
+    Demonstrate how to create an instance of this Stack class with a specific capacity, and provide an example where elements are pushed into both stacks until the array is full, raising an exception if an attempt is made to push beyond the capacity.
 
-Kindly feel free to comment down your suggestions and/or opinions.
-
-Created on: 31st May 2023
-
-Revised on: 03rd June 2023
-
-Original Author: Nithish Kumar S [IT-B, 3122 22 5002 084]
 '''
 
 
@@ -54,13 +48,12 @@ class Stack:
             raise IndexError('Wrong index')
 
 
-        
-
 if __name__ == '__main__': 
     #Creating an object instance of capacity 10.      
     s = Stack(10)
 
-    #Pushing 10 elements into the 2 Stacks as per index 0 or 1 respectively. Cap of each stack = 10/2. 
+    #Pushing 10 elements into the 2 Stacks as per index 0 or 1 respectively. here, 0 means stack1, 1 means stack2
+    # Cap of each stack = 10/2. 
     #Pushing continues smoothly until the the number of elements doesn't surpass the capacity.
     s.push(0,1)
     s.push(1,2)
