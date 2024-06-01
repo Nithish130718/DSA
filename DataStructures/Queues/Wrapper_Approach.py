@@ -2,8 +2,6 @@
 # Wrapper Approach - List based implentation 
 
 class Queue:
-    '''
-    This class is an implementation f '''
     def __init__(self):
         self.item = []
     def isempty(self):
