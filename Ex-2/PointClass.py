@@ -61,10 +61,6 @@ class Point:
         return distance
 
 
-
-# ------------------------- DRIVER CODE ----------------------------
-
-
 #usage of __name__ so that the test cases are not imported.
 if __name__ == '__main__':
     
