@@ -1,18 +1,7 @@
 '''
 This module provides a class 'Queue' that prrovides implementation to maintain two queues as:
     -> High Priority Queue(HPQ)
-    -> Low Priority Queue(LPQ)
-This exercise comes under the course UIT2201 (Programming and Data Structures).
-
-This is a source code purely based on my logic. It may have some bugs as well. 
-
-Kindly feel free to comment down your suggestions and/or opinions.
-
-Created on: 06th June 2023
-
-Revised on: 06th June 2023
-
-Original Author: Nithish Kumar S [IT-B, 3122 22 5002 084]
+    -> Low Priority Queue(LPQ) 
 '''
 
 import ctypes
