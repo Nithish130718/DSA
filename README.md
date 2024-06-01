@@ -53,3 +53,8 @@
   - BinarySearchTree.py
   - ExpressionTree.py
   - LinkedBinaryTree.py
+- **Linked Lists**
+  - NodeCreation.py (node structure for singly and circular linked list)
+  - SinglyLinkedList.py
+  - DoublyLinkedList.py
+  - CircularLinkedList.py
