@@ -1,5 +1,3 @@
-Certainly! Here's the updated README file with the additional subrepositories included:
-
 ## Python Codes for Data Structures and Algorithms
 
 ### Ex-1:
