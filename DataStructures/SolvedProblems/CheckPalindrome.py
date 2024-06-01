@@ -7,7 +7,7 @@ Question: To check if a given number is a palindrome or not, using an empty stac
 Implementation of stack and queue data structures as classes (as asked) to be included here....
 """
 
-# You can find the wrapper approach implementation of the stack here: https://github.com/Nithish130718/DSA/new/main/DataStructures/Stacks/Wrapper_Approach.py
+# You can find the wrapper approach implementation of the stack here: https://github.com/Nithish130718/DSA/blob/main/DataStructures/Stacks/Wrapper_Approach.py
 # And the implementation of the queue here: https://github.com/Nithish130718/DSA/new/main/DataStructures/Queues/Wrapper_Approach.py
     
 
