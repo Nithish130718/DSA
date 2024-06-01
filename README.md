@@ -58,3 +58,7 @@
   - SinglyLinkedList.py
   - DoublyLinkedList.py
   - CircularLinkedList.py
+ 
+
+If looking for a good YT channel for understanding algorithms and their complexity etc.,  - https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw (Abdul Bari), Jenny's lectures alone will do the work!
+Hope this helps and happy coding!
