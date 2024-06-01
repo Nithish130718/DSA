@@ -25,3 +25,19 @@ def bubblesort(arr):
     end = time.time()
     print('Time of execution:',end-start)
     return arr
+
+if __name__ == '__main__':
+    list1 = []
+    n = int(input("Enter the number of elements:"))
+    for i in range(n):
+        ele = random.randint(-100,100)
+        list1.append(ele)
+        
+    print('The original list is:',list1)
+
+    print('\n BUBBLE SORTING: \n')
+    bubble_res = bubblesort(list1)
+    print('The bubble sorted list is:',list1)
+    print('n^2 value:',bubble_comp_count / n**2)
+    print('n^3 value:',bubble_comp_count / n**3)
+    print('logn value:',bubble_comp_count / math.log(n))
