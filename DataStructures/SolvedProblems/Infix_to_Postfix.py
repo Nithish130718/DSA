@@ -2,18 +2,6 @@
 This module provides two classes:
 1) A base class 'functions' that is implemented for the constructor and the length function purpose;
 2) A child class 'Stack' that evaluates a infix expression by converting it into a postfix expression and returns the result of it.
-
-This exercise comes under the course UIT2201 (Programming and Data Structures).
-
-This is a source code purely based on my logic. It may have some bugs as well. 
-
-Kindly feel free to comment down your suggestions and/or opinions.
-
-Created on: 05th June 2023
-
-Revised on: 05th June 2023
-
-Original Author: Nithish Kumar S [IT-B, 3122 22 5002 084]
 '''
 
 class functions:
@@ -126,8 +114,6 @@ class Stack(functions):
         return st
     
 
-#----------------------------------------------------------------DRIVER CODE----------------------------------------------------------------
-
 if __name__ == '__main__':
     #Creating an object instance of class 'Stack'
     obj = Stack()
@@ -142,9 +128,7 @@ if __name__ == '__main__':
 
     '''
     ADDITIONAL DRIVER FUNCTIONS:
-    
     1) To get the length of the object instance Stack containing the postfix expression: 
-       
          print(len(obj)) 
 
     2) __getitem__ and __setitem__ to perform any referential or assignment operations.
