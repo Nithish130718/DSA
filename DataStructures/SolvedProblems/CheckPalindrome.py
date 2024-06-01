@@ -1,57 +1,17 @@
 
 """
-
-Question: To check if a given number is a palindrome or not using an empty stack, queue and their related functions. 
-HINT: You are allowed to use list based implementation for the same.
-
+Question: To check if a given number is a palindrome or not, using an empty stack, queue and their related functions. 
 """
 
-class Stack:
-    '''
-    This class is an implementation of the stack ADT.
-    '''
-    def __init__(self):
-        self.item = []
-    def isempty(self):
-        if len(self.item) == 0:
-            return True
-        return False
-    def push(self,ele):
-        self.item.append(ele)
-    def pop(self):
-        ele = self.item[-1]
-        self.item.pop()
-        return str(ele)
-    def __len__(self):
-        return len(self.item)
-    def __str__(self):
-        return str(self.item) 
-    def top_ele(self):#peek/peep 
-        return self.item[-1]
-    
+"""
+Implementation of stack and queue data structures as classes (as asked) to be included here....
+"""
 
-class Queue:
-    '''
-    This class is an implementation f '''
-    def __init__(self):
-        self.item = []
-    def isempty(self):
-        if len(self.item) == 0:
-            return True
-        return False
-    def enqueue(self,ele):
-        self.item.append(ele)
-    def dequeue(self):
-        ele = self.item[0]
-        self.item.pop(0)
-        return str(ele)
-    def __len__(self):
-        return len(self.item)
-    def __str__(self):
-        return str(self.item) 
-    def first_ele(self):
-        return self.item[0]
+# You can find the link-based implementation of the stack here: https://github.com/Nithish130718/DSA/new/main/DataStructures/Stacks/List_Implentation.py
+# And the implementation of the queue here: https://github.com/Nithish130718/DSA/new/main/DataStructures/Queues/List_Implentation.py
 
+# You can find the wrapper approach implementation of the stack here: https://github.com/Nithish130718/DSA/new/main/DataStructures/Stacks/Wrapper_Approach.py
+# And the implementation of the queue here: https://github.com/Nithish130718/DSA/new/main/DataStructures/Queues/Wrapper_Approach.py
     
 
 if __name__ == '__main__':
