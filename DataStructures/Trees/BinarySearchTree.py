@@ -127,6 +127,33 @@ class BinarySearchTree(LinkedBinaryTree):
         else:
             return None
 
+    # Level order traversal
+    def LevelOrder(self,root):
+        h = self.height(root)
+        for i in range(1, h+1):
+            self.printCurrentLevel(root, i)     # starts from root. then goes recursive
+
+    # helper function in LO traversal.
+    def printCurrentLevel(self,root, level):
+        if root is None:            # empty tree
+            return
+        if level == 1:              # prints current level
+            print(root.item, end=" ")
+        elif level > 1:             # for all nodes which has level > 1 (has child nodes)
+            self.printCurrentLevel(root.left, level-1)
+            self.printCurrentLevel(root.right, level-1)
+
+    # gets max height of the subtrees to get height of the tree
+    def height(self,node):
+        if node is None:
+            return 0
+        else:
+            lheight = self.height(node.left)
+            rheight = self.height(node.right)
+            if lheight > rheight:       # return max height condition
+                return lheight+1
+            else:
+                return rheight+1
 
 if __name__ == "__main__":
     # Creating an instance.
@@ -159,3 +186,6 @@ if __name__ == "__main__":
 
     bst.delete(20)  # deleting an item.
     print(f" BST after deletion: {bst}")
+
+    # level order traversal
+    print(bst.LevelOrder(bst.root))
